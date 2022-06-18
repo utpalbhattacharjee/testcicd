@@ -1,22 +1,22 @@
 variable AWS_REGION {
-  default = "us-east-2"
+  default = "ap-south-1"
 }
 
 variable AMIS {
   type = map
   default = {
-    us-east-2  = "ami-07efac79022b86107"
-    us-east-1  = "ami-06397100adf427136"
-    ap-south-1 = "ami-009110a2bf8d7dd0a"
+    ap-south-1  = "ami-07eaf27c7c4a884cf"
+    us-east-1  = "ami-0729e439b6769d6ab"
+    ap-south-1 = "ami-07eaf27c7c4a884cf"
   }
 }
 
 variable PRIV_KEY_PATH {
-  default = "vprofilekey"
+  default = "laora"
 }
 
 variable PUB_KEY_PATH {
-  default = "vprofilekey.pub"
+  default = "laora.pub"
 }
 
 variable USERNAME {
@@ -56,15 +56,15 @@ variable VPC_NAME {
 }
 
 variable Zone1 {
-  default = "us-east-2a"
+  default = "ap-south-1a"
 }
 
 variable Zone2 {
-  default = "us-east-2b"
+  default = "ap-south-1b"
 }
 
 variable Zone3 {
-  default = "us-east-2c"
+  default = "ap-south-1c"
 }
 
 variable VpcCIDR {
