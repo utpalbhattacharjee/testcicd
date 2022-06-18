@@ -12,11 +12,11 @@ variable AMIS {
 }
 
 variable PRIV_KEY_PATH {
-  default = "laora"
+  default = "projectkey"
 }
 
 variable PUB_KEY_PATH {
-  default = "laora.pub"
+  default = "projectkey.pub"
 }
 
 variable USERNAME {
